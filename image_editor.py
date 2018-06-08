@@ -62,4 +62,4 @@ for jpg in jpgfiles:
         img.crop(Magick.Geometry(zoombyxw, zoombyxh, leftcornerwpix, leftcornerhpix))
         img.sample(str(width) + "x" + str(height) + "!")
         img.write(outdir+pre_suff[0]+"_ZOOM"+str(int(args.zoom))+"."+pre_suff[1])
-    sys.exit()
+
